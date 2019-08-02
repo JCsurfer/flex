@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="title">Display</h2>
+        <br>
+        <div class="item">
+            <h2>Display: flex</h2>
+            <div class="d-flex">
+                <div class="box">1</div>
+                <div class="box">2</div>
+            </div>
+        </div>
+        <div class="item">
+            <h2>Display: inline-flex</h2>
+            <div class="d-inline-flex">
+                <div class="box">1</div>
+                <div class="box">2</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2 class="title">Direction</h2>
+        <br>
+        <div class="item">
+            <h2>flex-direction: row</h2>
+            <div class="d-flex fdirection-row">
+                <div class="box">1</div>
+                <div class="box">2</div>
+            </div>
+        </div>
+        <div class="item">
+            <h2>flex-direction: row-reverse</h2>
+            <div class="d-flex fdirection-row-reverse">
+                <div class="box">1</div>
+                <div class="box">2</div>
+            </div>
+        </div>
+        <div class="item">
+            <h2>flex-direction: column</h2>
+            <div class="d-flex fdirection-column">
+                <div class="box">1</div>
+                <div class="box">2</div>
+            </div>
+        </div>
+        <div class="item">
+            <h2>flex-direction: column-reverse</h2>
+            <div class="d-flex fdirection-column-reverse">
+                <div class="box">1</div>
+                <div class="box">2</div>
+            </div>
+        </div>
+        <div class="item">
+            <h2>flex-wrap: nowrap</h2>
+            <div class="d-flex fwrap-nowrap">
+                <div class="box">1</div>
+                <div class="box">2</div>
+                <div class="box">3</div>
+                <div class="box">4</div>
+                <div class="box">5</div>
+                <div class="box">6</div>
+                <div class="box">7</div>
+                <div class="box">8</div>
+                <div class="box">9</div>
+                <div class="box">10</div>
+                <div class="box">11</div>
+                <div class="box">12</div>
+                <div class="box">13</div>
+                <div class="box">14</div>
+                <div class="box">15</div>
+                <div class="box">16</div>
+                <div class="box">17</div>
+                <div class="box">18</div>
+                <div class="box">19</div>
+                <div class="box">20</div>
+                <div class="box">21</div>
+                <div class="box">22</div>
+                <div class="box">23</div>
+                <div class="box">24</div>
+                <div class="box">25</div>
+                <div class="box">26</div>
+                <div class="box">27</div>
+                <div class="box">28</div>
+                <div class="box">29</div>
+                <div class="box">30</div>
+            </div>
+        </div>
+        <div class="item">
+            <h2>flex-wrap: wrap</h2>
+            <div class="d-flex fwrap-wrap">
+                <div class="box">1</div>
+                <div class="box">2</div>
+                <div class="box">3</div>
+                <div class="box">4</div>
+                <div class="box">5</div>
+                <div class="box">6</div>
+                <div class="box">7</div>
+                <div class="box">8</div>
+                <div class="box">9</div>
+                <div class="box">10</div>
+                <div class="box">11</div>
+                <div class="box">12</div>
+                <div class="box">13</div>
+                <div class="box">14</div>
+                <div class="box">15</div>
+                <div class="box">16</div>
+                <div class="box">17</div>
+                <div class="box">18</div>
+                <div class="box">19</div>
+                <div class="box">20</div>
+                <div class="box">21</div>
+                <div class="box">22</div>
+                <div class="box">23</div>
+                <div class="box">24</div>
+                <div class="box">25</div>
+                <div class="box">26</div>
+                <div class="box">27</div>
+                <div class="box">28</div>
+                <div class="box">29</div>
+                <div class="box">30</div>
+            </div>
+        </div>
+        <div class="item">
+            <h2>flex-wrap: wrap-reverse</h2>
+            <div class="d-flex fwrap-wrap-reverse">
+                <div class="box">1</div>
+                <div class="box">2</div>
+                <div class="box">3</div>
+                <div class="box">4</div>
+                <div class="box">5</div>
+                <div class="box">6</div>
+                <div class="box">7</div>
+                <div class="box">8</div>
+                <div class="box">9</div>
+                <div class="box">10</div>
+                <div class="box">11</div>
+                <div class="box">12</div>
+                <div class="box">13</div>
+                <div class="box">14</div>
+                <div class="box">15</div>
+                <div class="box">16</div>
+                <div class="box">17</div>
+                <div class="box">18</div>
+                <div class="box">19</div>
+                <div class="box">20</div>
+                <div class="box">21</div>
+                <div class="box">22</div>
+                <div class="box">23</div>
+                <div class="box">24</div>
+                <div class="box">25</div>
+                <div class="box">26</div>
+                <div class="box">27</div>
+                <div class="box">28</div>
+                <div class="box">29</div>
+                <div class="box">30</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2 class="title">Alineacion de items</h2>
+        <br>
+        <div class="item">
+            <h2>justify-content: flex-start</h2>
+            <div class="d-flex jcontent-flex-start">
+                <div class="box">1</div>
+                <div class="box">2</div>
+            </div>
+        </div>
+        <div class="item">
+            <h2>justify-content: flex-end</h2>
+            <div class="d-flex jcontent-flex-end">
+                <div class="box">1</div>
+                <div class="box">2</div>
+            </div>
+        </div>
+        <div class="item">
+            <h2>justify-content: center</h2>
+            <div class="d-flex jcontent-center">
+                <div class="box">1</div>
+                <div class="box">2</div>
+            </div>
+        </div>
+        <div class="item">
+            <h2>justify-content: space-between</h2>
+            <div class="d-flex jcontent-space-between">
+                <div class="box">1</div>
+                <div class="box">2</div>
+            </div>
+        </div>
+        <div class="item">
+            <h2>justify-content: space-around</h2>
+            <div class="d-flex jcontent-space-around">
+                <div class="box">1</div>
+                <div class="box">2</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container container-acontent">
+        <h2 class="title">Alineacion de items</h2>
+        <br>
+        <div class="item">
+            <h2>align-content: flex-start</h2>
+            <div class="d-flex fwrap-wrap acontent-flex-start">
+                <div class="box">1</div>
+                <div class="box">2</div>
+                <div class="box">3</div>
+                <div class="box">4</div>
+                <div class="box">5</div>
+                <div class="box">6</div>
+                <div class="box">7</div>
+                <div class="box">8</div>
+                <div class="box">9</div>
+                <div class="box">10</div>
+                <div class="box">11</div>
+                <div class="box">12</div>
+                <div class="box">13</div>
+                <div class="box">14</div>
+                <div class="box">15</div>
+                <div class="box">16</div>
+                <div class="box">17</div>
+                <div class="box">18</div>
+                <div class="box">19</div>
+                <div class="box">20</div>
+                <div class="box">21</div>
+                <div class="box">22</div>
+                <div class="box">23</div>
+                <div class="box">24</div>
+                <div class="box">25</div>
+                <div class="box">26</div>
+                <div class="box">27</div>
+                <div class="box">28</div>
+                <div class="box">29</div>
+                <div class="box">30</div>
+            </div>
+        </div>
+        <div class="item">
+            <h2>align-content: flex-end</h2>
+            <div class="d-flex fwrap-wrap acontent-flex-end">
+                <div class="box">1</div>
+                <div class="box">2</div>
+                <div class="box">3</div>
+                <div class="box">4</div>
+                <div class="box">5</div>
+                <div class="box">6</div>
+                <div class="box">7</div>
+                <div class="box">8</div>
+                <div class="box">9</div>
+                <div class="box">10</div>
+                <div class="box">11</div>
+                <div class="box">12</div>
+                <div class="box">13</div>
+                <div class="box">14</div>
+                <div class="box">15</div>
+                <div class="box">16</div>
+                <div class="box">17</div>
+                <div class="box">18</div>
+                <div class="box">19</div>
+                <div class="box">20</div>
+                <div class="box">21</div>
+                <div class="box">22</div>
+                <div class="box">23</div>
+                <div class="box">24</div>
+                <div class="box">25</div>
+                <div class="box">26</div>
+                <div class="box">27</div>
+                <div class="box">28</div>
+                <div class="box">29</div>
+                <div class="box">30</div>
+            </div>
+        </div>
+        <div class="item">
+            <h2>align-content: center</h2>
+            <div class="d-flex fwrap-wrap acontent-center">
+                <div class="box">1</div>
+                <div class="box">2</div>
+                <div class="box">3</div>
+                <div class="box">4</div>
+                <div class="box">5</div>
+                <div class="box">6</div>
+                <div class="box">7</div>
+                <div class="box">8</div>
+                <div class="box">9</div>
+                <div class="box">10</div>
+                <div class="box">11</div>
+                <div class="box">12</div>
+                <div class="box">13</div>
+                <div class="box">14</div>
+                <div class="box">15</div>
+                <div class="box">16</div>
+                <div class="box">17</div>
+                <div class="box">18</div>
+                <div class="box">19</div>
+                <div class="box">20</div>
+                <div class="box">21</div>
+                <div class="box">22</div>
+                <div class="box">23</div>
+                <div class="box">24</div>
+                <div class="box">25</div>
+                <div class="box">26</div>
+                <div class="box">27</div>
+                <div class="box">28</div>
+                <div class="box">29</div>
+                <div class="box">30</div>
+            </div>
+        </div>
+        <div class="item">
+            <h2>align-content: space-between</h2>
+            <div class="d-flex fwrap-wrap acontent-space-between">
+                <div class="box">1</div>
+                <div class="box">2</div>
+                <div class="box">3</div>
+                <div class="box">4</div>
+                <div class="box">5</div>
+                <div class="box">6</div>
+                <div class="box">7</div>
+                <div class="box">8</div>
+                <div class="box">9</div>
+                <div class="box">10</div>
+                <div class="box">11</div>
+                <div class="box">12</div>
+                <div class="box">13</div>
+                <div class="box">14</div>
+                <div class="box">15</div>
+                <div class="box">16</div>
+                <div class="box">17</div>
+                <div class="box">18</div>
+                <div class="box">19</div>
+                <div class="box">20</div>
+                <div class="box">21</div>
+                <div class="box">22</div>
+                <div class="box">23</div>
+                <div class="box">24</div>
+                <div class="box">25</div>
+                <div class="box">26</div>
+                <div class="box">27</div>
+                <div class="box">28</div>
+                <div class="box">29</div>
+                <div class="box">30</div>
+            </div>
+        </div>
+        <div class="item">
+            <h2>align-content: space-around</h2>
+            <div class="d-flex fwrap-wrap acontent-space-around">
+                <div class="box">1</div>
+                <div class="box">2</div>
+                <div class="box">3</div>
+                <div class="box">4</div>
+                <div class="box">5</div>
+                <div class="box">6</div>
+                <div class="box">7</div>
+                <div class="box">8</div>
+                <div class="box">9</div>
+                <div class="box">10</div>
+                <div class="box">11</div>
+                <div class="box">12</div>
+                <div class="box">13</div>
+                <div class="box">14</div>
+                <div class="box">15</div>
+                <div class="box">16</div>
+                <div class="box">17</div>
+                <div class="box">18</div>
+                <div class="box">19</div>
+                <div class="box">20</div>
+                <div class="box">21</div>
+                <div class="box">22</div>
+                <div class="box">23</div>
+                <div class="box">24</div>
+                <div class="box">25</div>
+                <div class="box">26</div>
+                <div class="box">27</div>
+                <div class="box">28</div>
+                <div class="box">29</div>
+                <div class="box">30</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container container-acontent">
+        <h2 class="title">Alineacion de items</h2>
+        <br>
+        <div class="item">
+            <h2>align-items: flex-start</h2>
+            <div class="d-flex fwrap-wrap aitems-flex-start">
+                <div class="box">1</div>
+                <div class="box">2</div>
+                <div class="box">3</div>
+                <div class="box">4</div>
+                <div class="box">5</div>
+                <div class="box">6</div>
+                <div class="box">7</div>
+                <div class="box">8</div>
+                <div class="box">9</div>
+                <div class="box">10</div>
+                <div class="box">11</div>
+                <div class="box">12</div>
+                <div class="box">13</div>
+                <div class="box">14</div>
+                <div class="box">15</div>
+                <div class="box">16</div>
+                <div class="box">17</div>
+                <div class="box">18</div>
+                <div class="box">19</div>
+                <div class="box">20</div>
+                <div class="box">21</div>
+                <div class="box">22</div>
+                <div class="box">23</div>
+                <div class="box">24</div>
+                <div class="box">25</div>
+                <div class="box">26</div>
+                <div class="box">27</div>
+                <div class="box">28</div>
+                <div class="box">29</div>
+                <div class="box">30</div>
+            </div>
+        </div>
+        <div class="item">
+            <h2>align-items: flex-end</h2>
+            <div class="d-flex fwrap-wrap aitems-flex-end">
+                <div class="box">1</div>
+                <div class="box">2</div>
+                <div class="box">3</div>
+                <div class="box">4</div>
+                <div class="box">5</div>
+                <div class="box">6</div>
+                <div class="box">7</div>
+                <div class="box">8</div>
+                <div class="box">9</div>
+                <div class="box">10</div>
+                <div class="box">11</div>
+                <div class="box">12</div>
+                <div class="box">13</div>
+                <div class="box">14</div>
+                <div class="box">15</div>
+                <div class="box">16</div>
+                <div class="box">17</div>
+                <div class="box">18</div>
+                <div class="box">19</div>
+                <div class="box">20</div>
+                <div class="box">21</div>
+                <div class="box">22</div>
+                <div class="box">23</div>
+                <div class="box">24</div>
+                <div class="box">25</div>
+                <div class="box">26</div>
+                <div class="box">27</div>
+                <div class="box">28</div>
+                <div class="box">29</div>
+                <div class="box">30</div>
+            </div>
+        </div>
+        <div class="item">
+            <h2>align-items: center</h2>
+            <div class="d-flex fwrap-wrap aitems-center">
+                <div class="box">1</div>
+                <div class="box">2</div>
+                <div class="box">3</div>
+                <div class="box">4</div>
+                <div class="box">5</div>
+                <div class="box">6</div>
+                <div class="box">7</div>
+                <div class="box">8</div>
+                <div class="box">9</div>
+                <div class="box">10</div>
+                <div class="box">11</div>
+                <div class="box">12</div>
+                <div class="box">13</div>
+                <div class="box">14</div>
+                <div class="box">15</div>
+                <div class="box">16</div>
+                <div class="box">17</div>
+                <div class="box">18</div>
+                <div class="box">19</div>
+                <div class="box">20</div>
+                <div class="box">21</div>
+                <div class="box">22</div>
+                <div class="box">23</div>
+                <div class="box">24</div>
+                <div class="box">25</div>
+                <div class="box">26</div>
+                <div class="box">27</div>
+                <div class="box">28</div>
+                <div class="box">29</div>
+                <div class="box">30</div>
+            </div>
+        </div>
+        <div class="item">
+            <h2>align-items: stretch</h2>
+            <div class="d-flex fwrap-wrap aitems-stretch">
+                <div class="box">1</div>
+                <div class="box">2</div>
+                <div class="box">3</div>
+                <div class="box">4</div>
+                <div class="box">5</div>
+                <div class="box">6</div>
+                <div class="box">7</div>
+                <div class="box">8</div>
+                <div class="box">9</div>
+                <div class="box">10</div>
+                <div class="box">11</div>
+                <div class="box">12</div>
+                <div class="box">13</div>
+                <div class="box">14</div>
+                <div class="box">15</div>
+                <div class="box">16</div>
+                <div class="box">17</div>
+                <div class="box">18</div>
+                <div class="box">19</div>
+                <div class="box">20</div>
+                <div class="box">21</div>
+                <div class="box">22</div>
+                <div class="box">23</div>
+                <div class="box">24</div>
+                <div class="box">25</div>
+                <div class="box">26</div>
+                <div class="box">27</div>
+                <div class="box">28</div>
+                <div class="box">29</div>
+                <div class="box">30</div>
+            </div>
+        </div>
+        <div class="item">
+            <h2>align-items: baseline</h2>
+            <div class="d-flex fwrap-wrap aitems-baseline">
+                <div class="box">1</div>
+                <div class="box">2</div>
+                <div class="box">3</div>
+                <div class="box">4</div>
+                <div class="box">5</div>
+                <div class="box">6</div>
+                <div class="box">7</div>
+                <div class="box">8</div>
+                <div class="box">9</div>
+                <div class="box">10</div>
+                <div class="box">11</div>
+                <div class="box">12</div>
+                <div class="box">13</div>
+                <div class="box">14</div>
+                <div class="box">15</div>
+                <div class="box">16</div>
+                <div class="box">17</div>
+                <div class="box">18</div>
+                <div class="box">19</div>
+                <div class="box">20</div>
+                <div class="box">21</div>
+                <div class="box">22</div>
+                <div class="box">23</div>
+                <div class="box">24</div>
+                <div class="box">25</div>
+                <div class="box">26</div>
+                <div class="box">27</div>
+                <div class="box">28</div>
+                <div class="box">29</div>
+                <div class="box">30</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container container-acontent">
+        <h2 class="title">Alineacion de items</h2>
+        <br>
+        <div class="item">
+            <h2>align-self: auto</h2>
+            <div class="d-flex fwrap-wrap">
+                <div class="box aself-auto">1</div>
+                <div class="box">2</div>
+                <div class="box">3</div>
+                <div class="box">4</div>
+                <div class="box">5</div>
+                <div class="box">6</div>
+                <div class="box">7</div>
+                <div class="box">8</div>
+                <div class="box">9</div>
+                <div class="box">10</div>
+                <div class="box">11</div>
+                <div class="box">12</div>
+                <div class="box">13</div>
+                <div class="box">14</div>
+                <div class="box">15</div>
+                <div class="box">16</div>
+                <div class="box">17</div>
+                <div class="box">18</div>
+                <div class="box">19</div>
+                <div class="box">20</div>
+                <div class="box">21</div>
+                <div class="box">22</div>
+                <div class="box">23</div>
+                <div class="box">24</div>
+                <div class="box">25</div>
+                <div class="box">26</div>
+                <div class="box">27</div>
+                <div class="box">28</div>
+                <div class="box">29</div>
+                <div class="box">30</div>
+            </div>
+        </div>
+        <div class="item">
+            <h2>align-self: flex-start</h2>
+            <div class="d-flex fwrap-wrap">
+                <div class="box aself-flex-start">1</div>
+                <div class="box">2</div>
+                <div class="box">3</div>
+                <div class="box">4</div>
+                <div class="box">5</div>
+                <div class="box">6</div>
+                <div class="box">7</div>
+                <div class="box">8</div>
+                <div class="box">9</div>
+                <div class="box">10</div>
+                <div class="box">11</div>
+                <div class="box">12</div>
+                <div class="box">13</div>
+                <div class="box">14</div>
+                <div class="box">15</div>
+                <div class="box">16</div>
+                <div class="box">17</div>
+                <div class="box">18</div>
+                <div class="box">19</div>
+                <div class="box">20</div>
+                <div class="box">21</div>
+                <div class="box">22</div>
+                <div class="box">23</div>
+                <div class="box">24</div>
+                <div class="box">25</div>
+                <div class="box">26</div>
+                <div class="box">27</div>
+                <div class="box">28</div>
+                <div class="box">29</div>
+                <div class="box">30</div>
+            </div>
+        </div>
+        <div class="item">
+            <h2>align-self: flex-end</h2>
+            <div class="d-flex fwrap-wrap">
+                <div class="box aself-flex-end">1</div>
+                <div class="box">2</div>
+                <div class="box">3</div>
+                <div class="box">4</div>
+                <div class="box">5</div>
+                <div class="box">6</div>
+                <div class="box">7</div>
+                <div class="box">8</div>
+                <div class="box">9</div>
+                <div class="box">10</div>
+                <div class="box">11</div>
+                <div class="box">12</div>
+                <div class="box">13</div>
+                <div class="box">14</div>
+                <div class="box">15</div>
+                <div class="box">16</div>
+                <div class="box">17</div>
+                <div class="box">18</div>
+                <div class="box">19</div>
+                <div class="box">20</div>
+                <div class="box">21</div>
+                <div class="box">22</div>
+                <div class="box">23</div>
+                <div class="box">24</div>
+                <div class="box">25</div>
+                <div class="box">26</div>
+                <div class="box">27</div>
+                <div class="box">28</div>
+                <div class="box">29</div>
+                <div class="box">30</div>
+            </div>
+        </div>
+        <div class="item">
+            <h2>align-self: center</h2>
+            <div class="d-flex fwrap-wrap">
+                <div class="box aself-center">1</div>
+                <div class="box">2</div>
+                <div class="box">3</div>
+                <div class="box">4</div>
+                <div class="box">5</div>
+                <div class="box">6</div>
+                <div class="box">7</div>
+                <div class="box">8</div>
+                <div class="box">9</div>
+                <div class="box">10</div>
+                <div class="box">11</div>
+                <div class="box">12</div>
+                <div class="box">13</div>
+                <div class="box">14</div>
+                <div class="box">15</div>
+                <div class="box">16</div>
+                <div class="box">17</div>
+                <div class="box">18</div>
+                <div class="box">19</div>
+                <div class="box">20</div>
+                <div class="box">21</div>
+                <div class="box">22</div>
+                <div class="box">23</div>
+                <div class="box">24</div>
+                <div class="box">25</div>
+                <div class="box">26</div>
+                <div class="box">27</div>
+                <div class="box">28</div>
+                <div class="box">29</div>
+                <div class="box">30</div>
+            </div>
+        </div>
+        <div class="item">
+            <h2>align-self: stretch</h2>
+            <div class="d-flex fwrap-wrap">
+                <div class="box aself-stretch">1</div>
+                <div class="box">2</div>
+                <div class="box">3</div>
+                <div class="box">4</div>
+                <div class="box">5</div>
+                <div class="box">6</div>
+                <div class="box">7</div>
+                <div class="box">8</div>
+                <div class="box">9</div>
+                <div class="box">10</div>
+                <div class="box">11</div>
+                <div class="box">12</div>
+                <div class="box">13</div>
+                <div class="box">14</div>
+                <div class="box">15</div>
+                <div class="box">16</div>
+                <div class="box">17</div>
+                <div class="box">18</div>
+                <div class="box">19</div>
+                <div class="box">20</div>
+                <div class="box">21</div>
+                <div class="box">22</div>
+                <div class="box">23</div>
+                <div class="box">24</div>
+                <div class="box">25</div>
+                <div class="box">26</div>
+                <div class="box">27</div>
+                <div class="box">28</div>
+                <div class="box">29</div>
+                <div class="box">30</div>
+            </div>
+        </div>
+        <div class="item">
+            <h2>align-self: baseline</h2>
+            <div class="d-flex fwrap-wrap aself-baseline">
+                <div class="box aself-baseline">1</div>
+                <div class="box aself-baseline">2</div>
+                <div class="box">3</div>
+                <div class="box">4</div>
+                <div class="box">5</div>
+                <div class="box">6</div>
+                <div class="box">7</div>
+                <div class="box">8</div>
+                <div class="box">9</div>
+                <div class="box">10</div>
+                <div class="box">11</div>
+                <div class="box">12</div>
+                <div class="box">13</div>
+                <div class="box">14</div>
+                <div class="box">15</div>
+                <div class="box">16</div>
+                <div class="box">17</div>
+                <div class="box">18</div>
+                <div class="box">19</div>
+                <div class="box">20</div>
+                <div class="box">21</div>
+                <div class="box">22</div>
+                <div class="box">23</div>
+                <div class="box">24</div>
+                <div class="box">25</div>
+                <div class="box">26</div>
+                <div class="box">27</div>
+                <div class="box">28</div>
+                <div class="box">29</div>
+                <div class="box">30</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

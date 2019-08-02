@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+    font-family: arial;
+}
+
+.item {
+    margin-bottom: 40px;
+}
+
+.item h2 {
+    margin-bottom: 10px;
+}
+
+.box {
+    width: 40px;
+    height: 40px;
+    background: red;
+    border: 2px solid black;
+    margin-right: 20px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+}
+
+.container {
+    background: green;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.container-acontent .d-flex {
+    height: 300px;
+}
+
+.container .title {
+    color: white;
+    font-size: 28px;
+}
+
+/*Tipos de Flex*/
+.d-flex {
+    display: flex;
+}
+
+.d-inline-flex {
+    display: inline-flex;
+}
+
+/*Flex direction*/
+.fdirection-row {
+    flex-direction: row;
+}
+
+.fdirection-row-reverse {
+    flex-direction: row-reverse;
+}
+
+.fdirection-column {
+    flex-direction: column;
+}
+
+.fdirection-column-reverse {
+    flex-direction: column-reverse;
+}
+
+/*Wrap*/
+.fwrap-nowrap {
+    flex-wrap: nowrap;
+}
+
+.fwrap-wrap {
+    flex-wrap: wrap;
+}
+
+.fwrap-wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+
+
+/*Alineacion de items*/
+.jcontent-flex-start {
+    justify-content: flex-start;
+}
+
+.jcontent-flex-end {
+    justify-content: flex-end;
+}
+
+.jcontent-center {
+    justify-content: center;
+}
+
+.jcontent-space-between {
+    justify-content: space-between;
+}
+
+.jcontent-space-around {
+    justify-content: space-around;
+}
+
+/*Align content*/
+.acontent-flex-start {
+    align-content: flex-start;
+}
+
+.acontent-flex-end {
+    align-content: flex-end;
+}
+
+.acontent-center {
+    align-content: center;
+}
+
+.acontent-space-between {
+    align-content: space-between;
+}
+
+.acontent-space-around {
+    align-content: space-around;
+}
+
+.acontent-stretch {
+    align-content: stretch;
+}   
+
+/*align items*/
+.aitems-flex-start {
+    align-items: flex-start;
+}
+
+.aitems-flex-end {
+    align-items: flex-end;
+}
+
+.aitems-center {
+    align-items: center;
+}
+
+.aitems-stretch {
+    align-items: stretch;
+}
+
+.aitems-baseline {
+    align-items: baseline;
+}
+
+/*align self*/
+.aself-auto {
+    align-self: auto;
+}
+
+.aself-flex-start {
+    align-self: flex-start;
+}
+
+.aself-flex-end {
+    align-self: flex-end;
+}
+
+.aself-center {
+    align-self: center;
+}
+
+.aself-baseline {
+    align-self: baseline;
+}
